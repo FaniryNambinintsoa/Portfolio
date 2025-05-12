@@ -12,7 +12,7 @@
 <footer>
   <div class="footer-content">
     <div class="footer-left">
-      © 2025 Mon Blog Personnel
+      © 2025 Mon Portfolio Numérique
     </div>
     <div class="footer-right">
       <a href="#" title="facebook" class="logofacebook"><i class="fa-brands fa-facebook"></i></a>

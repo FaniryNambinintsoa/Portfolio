@@ -19,7 +19,7 @@
                             <a href="acceuil.php">Acceuil</a>
                             </li>
                             <li>
-                            <a href="apropos.php">À propos</a>
+                            <a href="#">À propos</a>
                             </li>
                             <li>
                             <a href="blog.php">Blog</a>
@@ -31,8 +31,11 @@
                 </div>
                 </div>
                     <div class="salutation">
-                        <p>Nambinintsoa</p>
-                        <p>Faniry</p>
+                        <h5>Bonjour,</h5>
+                        <h1><strong>Je suis un Développeur web</strong></h1>
+                        <i>J'aime la simplicité.</i>
+                        <br>
+                        <a href="#" class="btn btn-primary">Contactez-moi</a>
                     </div>
                     <div class="contact">
                         <table>

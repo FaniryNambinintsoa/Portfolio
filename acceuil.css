@@ -26,3 +26,32 @@ body {
 .gonflement a{
     text-decoration: none;
 }
+
+/* Couleur de fond du contenu du modal */
+.modal-body, .modal-header {
+    background-color: #1f262d;
+    color: white; /* Texte en blanc pour contraster */
+    border: none;
+    
+}
+
+/* Titre du modal */
+ .modal-title {
+    color: #ffffff;
+}
+
+/* Bouton de fermeture */
+.modal-header .btn-close {
+    filter: invert(1); /* pour que le bouton soit visible sur fond sombre */
+}
+
+/* Lien dans le modal */
+.modal-body a {
+    color: #4fc3f7;
+    text-decoration: underline;
+}
+
+.modal-body a:hover {
+    color: #81d4fa;
+}
+
