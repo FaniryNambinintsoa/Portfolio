@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 242, 242);
+    background-color: #151B20;
+}
+
+
+.gonflement {
+    transition: transform 0.1s ease-in-out;
+    
+}
+
+.gonflement:hover {
+    transform: scale(1.05);
+}
+
+/* .card-body {
+    background-color: #f0f0f0;
+} */
+
+.gonflement .card {
+    background-color: #1d2227;
+    color: azure;
+}
+
+.gonflement a{
+    text-decoration: none;
+}
