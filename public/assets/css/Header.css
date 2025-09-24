@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 242, 242);
+    margin: 0;
+}
+
+h1 strong{
+    border-right: 4px solid white;
+    padding-right: 4px;
+}
+
+.conteneur-header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/fond_header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Haut de la page : logo à gauche, menu à droite */
+.pseudoetlien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.pseudoetlogo {
+    margin-left: 155px;
+}
+
+/* Menu */
+ul {
+    display: flex;
+    gap: 35px;
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 155px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(245, 242, 242);
+    position: relative;
+    padding-bottom: 5px;
+}
+
+ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: #0d6efd;
+    transition: width 0.3s ease;
+}
+
+ul li a:hover::after,
+ul li a.active::after {
+    width: 100%;
+}
+
+
+
+
+
+
+/* Salutation : au milieu, aligné à gauche */
+.salutation {
+    position: absolute;
+    top: 50%;
+    left: 175px;
+    transform: translateY(-50%);
+    text-align: left;
+    font-size: 2em;
+    max-width: 90%;
+}
+
+/* Pied de page / contact */
+.contact {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* Tableaux */
+td {
+    border-left: 4px solid rgb(248, 242, 242);
+    padding: 10px 20px;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+table {
+    margin-left: 170px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* ===== Responsive : mobile/tablette ===== */
+@media (max-width: 768px) {
+    .pseudoetlien {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .salutation {
+        position: static;
+        transform: none;
+        margin: 2em 1em;
+        text-align: left;
+    }
+
+    .contact {
+        position: static;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    table {
+        margin: 1em auto;
+        font-size: 0.9em;
+    }
+}
