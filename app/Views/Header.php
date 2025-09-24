@@ -11,7 +11,7 @@
         <div class="conteneur-header">
             <div class="pseudoetlien">
             <div class="pseudoetlogo">
-                <h1>Boniry</h1>
+                <h1>Boniryyy</h1>
             </div>
                 <div class="liens">
                     <ul>
